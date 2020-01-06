@@ -6,7 +6,7 @@
 
 文字からTwitterサイズの画像を生成するコマンドです。
 
-##　使い方
+## 使い方
 
 ### インストール
 
@@ -21,9 +21,9 @@ go install github.com/aimof/mojigen/cmd/mojigen
 mojigen out.png ここにテキストを書いてください
 ```
 
-* Arg[0]: mojigen
-* Arg[1]: output fileのパス
-* Arg[2:]: テキスト
+* `Arg[0]`: mojigen
+* `Arg[1]`: output fileのパス
+* `Arg[2:]`: テキスト
 
 あとは、Twitterに貼り付けるなりなんなり好きにしてください。
 
@@ -34,6 +34,8 @@ mojigen out.png ここにテキストを書いてください
 * 全角時、一行あたり8~9文字が自然に入る文字数です。
 * 高さは自動で調節されます。
 * フォントはKoruriを利用していますが、git submoduleで管理しているので必ず配置してください。
+
+![行あたり文字数](./static/columns.png)
 
 ## LICESNE
 

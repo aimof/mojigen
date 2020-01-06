@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-// Config は
+// Config です。だいたい書いてあるとおりです。
 type Config struct {
 	FontPath        string
 	ColorFront      color.Color
