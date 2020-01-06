@@ -1,0 +1,3 @@
+[submodule "Koruri"]
+	path = Koruri
+	url = git@github.com:Koruri/Koruri.git
